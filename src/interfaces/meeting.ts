@@ -1,6 +1,6 @@
 import { Date } from "mongoose";
 
-export interface meeting {
+export interface IMeeting {
     name: string,
     description: string,
     duration: number,
